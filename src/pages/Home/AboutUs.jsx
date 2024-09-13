@@ -3,7 +3,7 @@ import CountUp from 'react-countup';
 import { Link } from "react-router-dom";
 
 const subTitle = "Why Choose Us";
-const title = "Become a Marchant";
+const title = "Become a Merchant";
 const desc = "Take courses on your any device with our app & learn all about business what you want. Just download & install & start to learn";
 const btnText = "Apply  Now";
 
@@ -11,7 +11,7 @@ const countList = [
     {
         iconName: 'icofont-users-alt-4',
         count: '12600',
-        text: 'Marchant Enrolled',
+        text: 'Merchant Enrolled',
     },
     {
         iconName: 'icofont-graduate-alt',

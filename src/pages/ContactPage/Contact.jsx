@@ -14,13 +14,13 @@ const contactList = [
     imgUrl: "/src/assets/images/icon/01.png",
     imgAlt: "contact icon",
     title: "Office Address",
-    desc: "1201 park street, Fifth Avenue",
+    desc: "1201 park street, Fifth Avenue, Nigeria",
   },
   {
     imgUrl: "/src/assets/images/icon/02.png",
     imgAlt: "contact icon",
     title: "Phone number",
-    desc: "+22698 745 632,02 982 745",
+    desc: "+234 9039986870",
   },
   {
     imgUrl: "/src/assets/images/icon/03.png",

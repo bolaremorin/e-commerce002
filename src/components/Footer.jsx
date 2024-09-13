@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const title = "About ShopCart";
-const desc = "Eduaid theme number one world class university in the world There are student are studing always in this university for all time.";
+const desc = "Best shopping boutique.";
 const ItemTitle = "Categories";
 const quickTitle = "Quick Links";
 const tweetTitle = "Recent Tweets";
@@ -12,11 +12,11 @@ const tweetTitle = "Recent Tweets";
 const addressList = [
     {
         iconName: 'icofont-google-map',
-        text: 'New York, USA.',
+        text: 'Lagos, Nigeria.',
     },
     {
         iconName: 'icofont-phone',
-        text: '+880 123 456 789',
+        text: '+234 9039986870',
     },
     {
         iconName: 'icofont-envelope',
@@ -231,7 +231,7 @@ const Footer = () => {
     <div className="footer-bottom">
         <div className="container">
             <div className="section-wrapper">
-                <p>&copy; 2023 <Link to="/">Shop Cart</Link> Designed by <a href="https://themeforest.net/user/CodexCoder" target="_blank">XYZ</a> </p>
+                <p>&copy; <Link to="/">Shop Cart</Link> <a href="https://themeforest.net/user/CodexCoder" target="_blank"></a> </p>
                 <div className="footer-bottom-list">
                     {footerbottomList.map((val, i) => (
                         <a href={val.link} key={i}>{val.text}</a>
